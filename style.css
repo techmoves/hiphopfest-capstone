@@ -7,11 +7,270 @@
 body{
 
 }
-nav ul {
+nav ul li a {
     display: none;
+    list-style: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#top-sections {
-background-image: url('images/sec-1.jpeg');
-background-position: center;
 
+nav ul {
+    list-style: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.humburger {
+   width: 25px;
+}
+#header section {
+
+}
+.great-text {
+    color: rgb(252, 50, 14);
+     font-family: 'Lato';
+     font-size: 20px;
+     font-weight: 400;
+
+}
+.notes {
+margin-top: 80px;
+
+}
+
+#top-sections {
+background-image: url('images/mobile-bg.png');
+background-position: center;
+margin-top: 30px;
+}
+.pic-sizing {
+    width: 65px;
+    height: 100px;
+}
+
+h1 {
+    color: rgb(252, 50, 14);
+    font-family: 'Lato';
+    font-weight: 900 !important;
+    background-image: url('images/fire.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    width: 100%;
+
+}
+article {
+    width: 328px;
+    height: 51px;
+    left: 14px;
+    top: 17.1px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #515151;
+}
+.date {
+    padding: 20px 0;
+    width: 80%;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    align-items: center;
+    color: #595959;  
+}
+.loaction {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #868686;
+    padding: 14px 0;
+}
+
+.event-details {
+    height: 82.06px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.7034px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;  
+}
+
+.horizontal-main-line {
+   border: 2px solid #A04038;
+   width: 30px;
+   height: 0px;
+}
+
+.inter-act {
+    height: 17px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF; 
+}
+
+.inter-act1 {
+    height: 17px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top:40px
+}
+
+/* --------------main program section--- */
+.guest {
+    background-image: url('');
+}
+.activity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8.92px; 
+    background-color: rgba(60, 63, 70, 0.5);
+    margin: 10px 5px;
+}
+a {
+    width: 50%;
+    height: 41.92px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.2712px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #FF5438;
+}
+
+.inter-act {
+    color: black;
+}
+.pro {
+    width: 80px;
+}
+.sub-ticket {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 10px;
+    width: 300px;
+    height: 68px;
+    background: #FF4F38;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 28px;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+    margin: 20px 20px 0 30px;
+}
+#main-program-sec {
+    background-image: url('images/bfx.png');
+    background-color: #2d3037;
+}
+
+/* act--------------- */
+
+.pic-sizing
+ {
+   height: 136px;
+    width: 107px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.artist {
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    gap: 8.92px;
+}
+.line-speaker {
+    width: 17.79px;
+    height: 2px;
+    border: 1.42315px solid #D9D9D9;
+    margin-left: 5px;
+   
+}
+.art-name {
+    margin: 5px;
+    height: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;  
+}
+
+.artist-bio {
+margin-top: 15px;
+width: 229px;
+height: 47px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 17px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.expanda-btn {
+    background-image: url('images/arrow.png'); 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 4px;
+    gap: 10px;
+    width: 375.31px;
+    background: #FFFFFF;
+    border-style: #4b4747;
+    
+}
+.art-name.color {
+    color: #F78C89;
+}
+
+.bout-dur {
+    color: rgb(252, 50, 14);
+    font-family: 'Lato';
+    font-weight: 900 !important;
+    font-size: 50px;
+    width: 100%;
 }
