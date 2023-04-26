@@ -71,6 +71,17 @@ article {
     padding: 46px 0;
     width: 90%;
 }
+
+.center-main {
+    background-color: #FFFFFF;
+    width: 95%;
+}
+
+.center-main1 {
+    background-color: #FFFFFF;
+    width: 95%;
+}
+
 .date {
     padding: 20px 0;
     width: 80%;
@@ -79,7 +90,9 @@ article {
     font-weight: 900;
     font-size: 20px;
     align-items: center;
-    color: #595959;  
+    color: #595959;
+    margin: 0pc 0px;
+    padding-bottom: 0px;   
 }
 .loaction {
     font-family: 'Gothic A1';
@@ -239,6 +252,10 @@ a {
     color: #FFFFFF;
     border: none;
     margin: 20px 20px 0 14%;
+}
+
+.line-up {
+    display: none;
 }
 #main-program-sec {
     background-image: url('images/bfx.png');
@@ -420,7 +437,7 @@ color: #000000;
 }
 .pic-year1{
         position: absolute;
-        top: 25%;
+        top: 29%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
@@ -526,3 +543,198 @@ font-style: normal
     letter-spacing: -0.01em;
     color: #3B3E45;
 }
+
+/* -----------------destop version-------------- */
+
+@media screen and (min-width: 768px) {
+nav ul li a{
+    display: flex;
+    flex-direction: row;
+    border-style: none;
+    margin-left: 25px;
+    color: #868686;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 35px;
+    margin-right: 25px;
+    
+}
+.col-nav {
+    color: #EC4327;
+    border: 3px solid #EC4327;
+    position: relative;
+    width: 91px;
+    height: 39px;
+    left: -24px;
+    top: -0.5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+}
+.col-nav1{
+    color: #EC4327;
+    
+}
+.Logo {
+   color: rgb(252, 50, 14);
+    font-family: 'Lato';
+    font-weight: 900 !important;
+    background-image: url('images/fire.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+    padding-left: 10%;
+}
+
+a {
+width: 90%;
+height: 27px;
+left: 55px;
+top: 71px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+justify-content: center;
+letter-spacing: -0.01em;
+color: #FF5438;
+}
+.pro{
+    width: 50%;
+}
+
+.center-main {
+    background-color: #FFFFFF;
+
+    height: 60;
+}
+
+
+.notes {
+ margin-left: 10%; 
+}
+.humburger{
+    display: none;
+}
+article {
+    width: 696.73px;
+    height: 140px;
+    left: 29.74px;
+    top: 36.32px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.4902px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #515151;
+}
+
+.date {
+   width: 608.35px;
+    height: 78.09px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42.4837px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.08em;
+    color: #595959;
+    margin: 0pc 0px;
+    padding-bottom: 0px;  
+}
+
+.loaction {
+    width: 715.85px;
+    height: 27.61px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.6144px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #868686;
+}
+
+/* -----main feature--- */
+#main-program-sec {
+
+}
+.guest {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    margin-left: 10%;
+
+}
+.line-up {
+    display: block;
+    width: 257px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    background-color: transparent !important;
+    border: none;
+    text-decoration: none;
+}
+.sub-ticket {
+    display: none;
+}
+
+.activity {
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center; 
+}
+
+.event-details{
+
+    width: 175px;
+    height: 72px;
+    left: 0px;
+    top: 111px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+
+
+}
+/* ---yes-- */
