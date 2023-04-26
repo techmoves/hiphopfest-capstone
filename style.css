@@ -20,6 +20,10 @@ nav ul {
 .humburger {
    width: 25px;
 }
+.Logo {
+    display: none;
+}
+ 
 #header section {
 
 }
@@ -28,8 +32,8 @@ nav ul {
      font-family: 'Lato';
      font-size: 20px;
      font-weight: 400;
-
 }
+
 .notes {
 margin-top: 80px;
 
@@ -70,6 +74,7 @@ article {
     color: #515151;
     padding: 46px 0;
     width: 90%;
+    display: none;
 }
 
 .center-main {
@@ -168,6 +173,8 @@ article {
     align-items: center;
     color: #2C2C2C;
 }
+
+
 
 .inter-act4 {
     width: 100%;
@@ -369,6 +376,35 @@ color: #000000;
     color: #838383; 
 }
 
+.logo-compertition {
+background-color: #eeeeee;
+width: 100%;
+}
+
+.winner-circle {
+height: 42px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #838383;
+}
+
+element.style {
+}
+
+.about-dur {
+    color: rgb(252, 50, 14);
+    font-family: 'Lato';
+    font-weight: 900 !important;
+    font-size: 50px;
+    width: 100%;
+}
+
 .about-discription {
 width: 100%;
 height: 116px;
@@ -381,8 +417,11 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: -0.06em;
-
 color: #000000;   
+}
+
+.about-discription1 article {
+    display: none;
 }
 
 .pic-overlay {
@@ -488,6 +527,10 @@ color: #000000;
     background: #414246;
 }
 /* ---FOOTER SOPNSOERS --------------- */
+
+#sponsers {
+    display: none;
+}
 .shows2020 {
 display: flex;
 justify-content: space-around;
@@ -591,10 +634,9 @@ nav ul {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
-    width: 100%;
-    position: absolute;
-    padding-left: 10%;
+    width: 20%;
 }
+
 
 a {
 width: 90%;
@@ -645,6 +687,24 @@ article {
     color: #515151;
 }
 
+.about-discription1  {
+width: 100%;
+height: 116px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.06em;
+color: #000000;   
+}
+.about-discription1 article {
+    display: none;
+} 
+
 .date {
    width: 608.35px;
     height: 78.09px;
@@ -681,7 +741,7 @@ article {
 }
 .guest {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1rem;
     justify-items: center;
     margin-left: 10%;
@@ -704,7 +764,10 @@ article {
     color: #FFFFFF;
     background-color: transparent !important;
     border: none;
-    text-decoration: none;
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 36px 0 0 42%;
+
 }
 .sub-ticket {
     display: none;
@@ -734,7 +797,274 @@ article {
     letter-spacing: 0.06em;
 }
 
+/* -------------international act------grid------- */
 
+
+
+.artist-line-up {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem 5rem;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+/* -----about page--- */
+.about-main-sec {
+ background-image: url('images/mobile-bg.png');
+ background-position: center;
+}
+
+.about-dur {
+    color: rgb(252, 50, 14);
+    font-family: 'Lato';
+    font-weight: 900 !important;
+    font-size: 70px;
+    width: 100%;
+}
+
+.about-discription {
+width: 80%;
+height: 175px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+background-color: #FFFFFF;
+display: none;
+}
+.center-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    height: 245px;
+    background: #FFFFFF;
+    max-width: 57rem;
+    padding: 20px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.go1 {
+color: rgb(245, 122, 89);
+padding-left: 2rem;
+margin-left: 3rem;
+}
+
+
+
+
+.pic-overlay {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    width: 80%;
+    gap: 2rem;
+    margin-left: 10%;
+}
+.great-text {
+  display: none;
+}
+.vanue {
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+}
+
+.pic-year {
+        position: absolute;
+        top: 45%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+}
+
+.vanue1 {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+}
+.pic-year1{
+        position: absolute;
+        top: 49%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+}
+.pic-overlay img {
+    width: 100%;
+    opacity: 0.4;
+    background-color: rgb(245, 122, 89);
+    height: 100%;
+}
+
+
+
+
+
+.raw-text {
+    width: 100%;
+    height: 42px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #838383;
+    padding: 3.5rem;
+}
+
+
+
+
+
+
+
+
+
+.expanda-btn {
+    display: none;
+}
+
+
+/* ------footer---- */
+
+#sponsers {
+    display: block;
+}
+.bottom-footer {
+    display: flex;
+}
+
+.chana-bottom{
+display: block;
+width: 683px;
+height: 56px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+color: #000000;
+}
+.chana-bottom1 {
+display: block;
+width: 683px;
+height: 56px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+
+}
+.ogo1{
+     color: rgb(252, 50, 14);
+    font-family: 'Lato';
+    font-weight: 900 !important;
+    background-image: url('images/fire.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    /* width: 20%; */
+    padding: 60px;
+}
+
+.logo-compertition {
+background-color: #eeeeee;
+width: 100%;
+}
+
+.winner-circle {
+    width: 759px;
+    height: 63px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    color: #838383;
+}
+
+.closing-footer {
+    width: 60%;
+    height: 24px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #3B3E45;
+}
+.closing-footer1 {
+    width: 60%;
+    height: 24px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
 
 }
 /* ---yes-- */
