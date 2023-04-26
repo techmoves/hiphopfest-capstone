@@ -586,6 +586,16 @@ font-style: normal
     letter-spacing: -0.01em;
     color: #3B3E45;
 }
+.chana-bottom {
+    display: none;
+}
+.closing-footer {
+ display: none;
+}
+
+a {
+    display: none;
+}
 
 /* -----------------destop version-------------- */
 
