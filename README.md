@@ -70,12 +70,12 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="https://techmoves.github.io/hiphopfest-capstone/"></a>
 
 > LIVE DEMO LINK.
 
 deployment
-- https://github.com/techomoves/durban.hiphopfest.git
+- https://techmoves.github.io/hiphopfest-capstone/
 
 
 
@@ -144,7 +144,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-- Project is deployed using [GitHub Pages](https://techmoves.github.io/setup-mobile-first/)
+- Project is deployed using [GitHub Pages](https://techmoves.github.io/hiphopfest-capstone/)
 
 
 
@@ -196,7 +196,7 @@ I'm happy to share my walk through to the project here is the link https://www.l
 
 Feel free to check the [issues page](https://github.com/techmoves/setup-mobile-first/issues/3)
 
-<p align="right">(<a href="https://github.com/techmoves/setup-mobile-first/issues/3">back to top</a>)</p>
+<p align="right">(<a href="https://techmoves.github.io/hiphopfest-capstone/">back to top</a>)</p>
 
 <!-- SUPPORT --> 
 
@@ -221,7 +221,7 @@ I would like to express my gratitude to the following individuals and resources 
 (back to top)
 
 
-Major thanks to [Nemwel Boniface](https://twitter.com/nemwel_bonie)
+Major thanks to [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
