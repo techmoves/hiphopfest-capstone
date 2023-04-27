@@ -332,7 +332,7 @@ a {
   color: #000;
 }
 
-.expanda-btn {
+.expandaBtn{
   background-image: url('images/arrow.png');
   background-repeat: no-repeat;
   background-position-x: right;
@@ -706,7 +706,6 @@ a {
   }
 
   article {
-    width: 696.73px;
     height: 140px;
     left: 29.74px;
     top: 36.32px;
@@ -985,7 +984,7 @@ a {
     padding: 3.5rem;
   }
 
-  .expanda-btn {
+  .expandaBtn {
     display: none;
   }
 

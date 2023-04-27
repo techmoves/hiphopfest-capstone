@@ -18,7 +18,7 @@ const artist = [
     occupation: "Singer, songwriter",
     description:
       "J.cole has has sold out shows and mult platnum selling Albums,a success full home coming show called dreamville fest happening anually",
-    image: "./Assets/Justin Beiber.png",
+    image: "images/cole.png",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const artist = [
     occupation: "Multi Grammy Award winner",
     description:
       "Award wining rapper born in Compton La and multplatinum selling artist.",
-    image: "./Assets/Adam Levine.png",
+    image: "images/kdot.png"
   },
   {
     id: 3,
@@ -63,20 +63,32 @@ const artist = [
 ];
 
 const htmlStructure = (id, name, occupation, description, image) => ` 
-<div class="singer-container" id="singer-${id}">
-    <div class="singer-image">
-        <img src="${image}"/>
-    </div>
-    <div class="singer-info">
-        <h3 class="singer-name">${name}</h3>
-        <hr class="singer-line">
-        <p class="singer-occupation">${occupation}</p>
-        <p class="singer-description">${description}</p>
+<div class="artist" id="${id}">
+    <img class="pic-sizing"src="${image}" alt="icon-guest">
+    <div class="details">
+    <h4 class="${name}">Kendric Lamar</h4>
+    <h5 class="${occupation} color">Multi Grammy Award winner</h5>
+    <hr class="line-speaker">
+    <p class="${description}">
+        Award wining rapper born in Compton La and multplatinum selling artist.
+    </p>
     </div>
 </div>
 `;
-
-singer.forEach((sing) => {
+// ---
+{/* <div class="artist" id="${id}">
+    <img class="pic-sizing"src="${image}" alt="icon-guest">
+    <div class="details">
+    <h4 class="${name}">Kendric Lamar</h4>
+    <h5 class="{occupation} color">Multi Grammy Award winner</h5>
+    <hr class="line-speaker">
+    <p class="${description}">
+        Award wining rapper born in Compton La and multplatinum selling artist.
+    </p>
+    </div>
+</div> }*/
+// ---
+artist.forEach((sing) => {
   const html = htmlStructure(
     sing.id,
     sing.name,
@@ -84,24 +96,24 @@ singer.forEach((sing) => {
     sing.description,
     sing.image
   );
-  mainContainer.innerHTML += html;
+  artist-lineup.innerHTML += html;
 });
 
 // more singer button
-const moreSingers = document.createElement("div");
-performer.appendChild(moreSingers);
-moreSingers.classList.add("moreSingerBtn-Container");
-const moreSingersBtn = document.createElement("button");
-moreSingersBtn.textContent = "More Singers";
-moreSingersBtn.classList.add("moreSingerBtn");
-moreSingers.appendChild(moreSingersBtn);
-const moreSingersBtnIcon = document.createElement("img");
-moreSingersBtnIcon.src = "./Assets/more-singers.png";
-moreSingersBtnIcon.classList.add("moreSingerBtn-Icon");
-moreSingersBtn.appendChild(moreSingersBtnIcon);
+const expandaBtn = document.createElement("div");
+performer.appendChild(expandaBtn);
+expandaBtn.classList.add("moreSingerBtn-Container");
+const expandaBtnBtn = document.createElement("button");
+expandaBtnBtn.textContent = "More Singers";
+expandaBtnBtn.classList.add("moreSingerBtn");
+expandaBtn.appendChild(expandaBtnBtn);
+const expandaBtnBtnIcon = document.createElement("img");
+expandaBtnBtnIcon.src = "./Assets/more-singers.png";
+expandaBtnBtnIcon.classList.add("moreSingerBtn-Icon");
+expandaBtnBtn.appendChild(expandaBtnBtnIcon);
 
 // event listener for more singer btn;
-const moreBtn = document.querySelector(".moreSingerBtn");
+const moreBtn = document.querySelector("images/arrow.png");
 const hiddenSingers = [
   document.getElementById("singer-3"),
   document.getElementById("singer-4"),
@@ -119,19 +131,19 @@ moreBtn.addEventListener("click", () => {
 
 const ham = document.querySelector(".humburger");
 const closeBtn = document.querySelector(".closeBtn");
-const mobMenu = document.querySelector(".mob-menu");
+const mobMenu = document.querySelector(".mobile-menu");
 
 ham.addEventListener("click", () => {
   mobMenu.style.display = "flex";
-  mainContainer.style.filter = "blur(100px)";
+  artist-lineup.style.filter = "blur(100px)";
 });
 
 closeBtn.addEventListener("click", () => {
   mobMenu.style.display = "block";
-  mainContainer.style.filter = "blur(0)";
+  artist-lineup.style.filter = "blur(0)";
 });
 
 mobMenu.addEventListener("click", () => {
   mobMenu.style.display = "block";
-  mainContainer.style.filter = "blur(0)";
+  artist-lineup.style.filter = "blur(0)";
 });

@@ -71,6 +71,8 @@
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="https://techmoves.github.io/hiphopfest-capstone/"></a>
+  <img  src="images/dest2.png">
+  <img  src="images/dest1.png">
 
 > LIVE DEMO LINK.
 
