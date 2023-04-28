@@ -815,6 +815,15 @@ a {
     justify-items: center;
   }
 
+  .activity :hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+  }
+  .main-feature :hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+  }
+
   .event-details {
     width: 175px;
     height: 72px;
