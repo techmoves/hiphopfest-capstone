@@ -202,9 +202,9 @@ article {
   height: 0;
 }
 
-/* .inter-act {
+.inter-act {
   height: 17px;
-  font-family: "Lato",sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -213,7 +213,7 @@ article {
   justify-content: center;
   align-items: center;
   color: #fff;
-} */
+}
 
 .inter-act1 {
   height: 17px;
@@ -287,10 +287,6 @@ article {
   gap: 8.92px;
   background-color: rgba(60, 63, 70, 0.5);
   margin: 10px 5px;
-}
-
-.inter-act {
-  color: black;
 }
 
 .pro {
@@ -572,7 +568,6 @@ article {
 }
 
 #sponsers {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -658,7 +653,6 @@ article {
   font-weight: 700;
   font-size: 10px;
   line-height: 13px;
-  display: flex;
   align-items: center;
   letter-spacing: -0.01em;
   color: #3b3e45;
@@ -823,26 +817,26 @@ article {
     text-align: center;
     align-items: center;
   }
+
   /* -----------------------------top nav------------------------------ */
   .top-navbar {
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: center;
-padding: 0px 190px 0px 0px;
-gap: 20px;
-width: 1440px;
-height: 30px;
-background: #3E3E3E;
-top: 0;
-left: 0;
-right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 190px 0 0;
+    gap: 20px;
+    width: 1440px;
+    height: 30px;
+    background: #3e3e3e;
+    top: 0;
+    left: 0;
+    right: 0;
   }
-.twitter {
+
+  /* .twitter {
  width: 1.5%;
-}
-
-
+} */
   .notes {
     margin-left: 10%;
   }
