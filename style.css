@@ -116,7 +116,7 @@ h1 {
 
 article {
   height: 51px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -144,7 +144,7 @@ article {
 .date {
   padding: 20px 0;
   width: 80%;
-  font-family: "Gothic A1";
+  font-family: "Gothic A1",sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
@@ -155,7 +155,7 @@ article {
 }
 
 .loaction {
-  font-family: "Gothic A1";
+  font-family: "Gothic A1",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
@@ -169,7 +169,7 @@ article {
 
 .event-details {
   height: 82.06px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 10.7034px;
@@ -219,7 +219,7 @@ article {
 .inter-act2 {
   width: 100%;
   height: 28px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -233,7 +233,7 @@ article {
 .inter-act4 {
   width: 100%;
   height: 28px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -247,7 +247,7 @@ article {
 .inter-act3 {
   width: 100%;
   height: 28px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -279,7 +279,7 @@ article {
 a {
   width: 50%;
   height: 41.92px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14.2712px;
@@ -370,7 +370,7 @@ a {
   margin-top: 15px;
   width: 95%;
   height: 47px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 9px;
@@ -395,7 +395,7 @@ a {
   cursor: pointer;
   border: none;
   color: #000;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 11px;
@@ -422,7 +422,7 @@ a {
 .raw-text {
   width: 100%;
   height: 42px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -441,7 +441,7 @@ a {
 
 .winner-circle {
   height: 42px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -457,7 +457,7 @@ element.style {
 
 .about-dur {
   color: rgb(252, 50, 14);
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-weight: 900 !important;
   font-size: 50px;
   width: 100%;
@@ -466,7 +466,7 @@ element.style {
 .about-discription {
   width: 100%;
   height: 116px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -528,7 +528,7 @@ element.style {
   color: white;
   text-align: center;
   padding-top: 30px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 22px;
@@ -542,7 +542,7 @@ element.style {
   color: white;
   text-align: center;
   padding-top: 30px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 22px;
@@ -556,7 +556,7 @@ element.style {
   color: white;
   text-align: center;
   padding-top: 30px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 22px;
@@ -648,7 +648,7 @@ element.style {
 .closing-footer {
   width: 40%;
   height: 24px;
-  font-family: "Lato";
+  font-family: "Lato",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -703,7 +703,7 @@ a {
     height: 39px;
     left: -24px;
     top: -0.5px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -736,7 +736,7 @@ a {
     height: 27px;
     left: 55px;
     top: 71px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -770,7 +770,7 @@ a {
     height: 140px;
     left: 29.74px;
     top: 36.32px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25.4902px;
@@ -784,7 +784,7 @@ a {
   .about-discription1 {
     width: 100%;
     height: 116px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -803,7 +803,7 @@ a {
   .date {
     width: 608.35px;
     height: 78.09px;
-    font-family: "Gothic A1";
+    font-family: "Gothic A1",sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 42.4837px;
@@ -819,7 +819,7 @@ a {
   .loaction {
     width: 715.85px;
     height: 27.61px;
-    font-family: "Gothic A1";
+    font-family: "Gothic A1",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 27.6144px;
@@ -846,7 +846,7 @@ a {
     display: block;
     width: 257px;
     height: 19px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -889,7 +889,7 @@ a {
     height: 72px;
     left: 0;
     top: 111px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -920,7 +920,7 @@ a {
 
   .about-dur {
     color: rgb(252, 50, 14);
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-weight: 900 !important;
     font-size: 70px;
     width: 100%;
@@ -929,7 +929,7 @@ a {
   .about-discription {
     width: 80%;
     height: 175px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -981,7 +981,7 @@ a {
     color: white;
     text-align: center;
     padding-top: 30px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
@@ -995,7 +995,7 @@ a {
     color: white;
     text-align: center;
     padding-top: 30px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
@@ -1009,7 +1009,7 @@ a {
     color: white;
     text-align: center;
     padding-top: 30px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
@@ -1023,7 +1023,7 @@ a {
     color: white;
     text-align: center;
     padding-top: 30px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
@@ -1039,7 +1039,7 @@ a {
   .raw-text {
     width: 100%;
     height: 42px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -1070,7 +1070,7 @@ a {
     display: block;
     width: 683px;
     height: 56px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1085,7 +1085,7 @@ a {
     display: block;
     width: 683px;
     height: 56px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1115,7 +1115,7 @@ a {
 
   .winner-circle {
     height: 63px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1130,7 +1130,7 @@ a {
   .closing-footer {
     width: 60%;
     height: 24px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -1144,7 +1144,7 @@ a {
   .closing-footer1 {
     width: 60%;
     height: 24px;
-    font-family: "Lato";
+    font-family: "Lato",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
