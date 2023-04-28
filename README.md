@@ -79,7 +79,6 @@
 
 https://www.loom.com/share/6847dfc6f596439583c2fefeed291bd9
 
-> LIVE DEMO LINK.
 
 deployment
 - https://techmoves.github.io/hiphopfest-capstone/
@@ -123,7 +122,7 @@ Install this project with:
 
 - Open your command prompt or terminal and run.
 
-- git clone  https://github.com/techmoves/setup-mobile-first.git
+- git clone  [https://github.com/techmoves/hiphopfest-capstone.git]
 
 - Clone the repository to your local machine using the git clone command as described in the previous answer.
 Navigate to the project folder using a command-line interface such as Terminal or Command Prompt.
@@ -199,10 +198,10 @@ Create a new issue: If you I find an existing issue that matches your contributi
 
 Contributions, issues, and feature requests are welcome!
 
-I'm happy to share my walk through to the project here is the link https://www.loom.com/share/59979d30d1b04be48898e4de063c5fa1
+I'm happy to share my walk through to the project here is the link https://www.loom.com/share/6847dfc6f596439583c2fefeed291bd9
 
-Feel free to check the [issues page](https://github.com/techmoves/setup-mobile-first/issues/3)
-
+Feel free to check the [issues page](https://github.com/techmoves/hiphopfest-capstone/issues/2)
+    
 <p align="right">(<a href="https://techmoves.github.io/hiphopfest-capstone/">back to top</a>)</p>
 
 <!-- SUPPORT --> 
