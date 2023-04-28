@@ -796,6 +796,18 @@ article {
     width: 20%;
   }
 
+  
+  .Logo10 {
+    color: rgb(252, 50, 14);
+    font-family: "Lato", sans-serif;
+    font-weight: 900 !important;
+    background-image: url("images/fire.jpg");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    width: 20%;
+  }
+
   .pro {
     width: 50%;
     height: 75px;
