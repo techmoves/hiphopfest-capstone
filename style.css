@@ -676,11 +676,6 @@ article {
   display: none;
 }
 
-.bot {
-  display: flex;
-  flex-direction: row;
-}
-
 .bottom-footer {
   display: flex;
 }
@@ -1183,7 +1178,8 @@ article {
     font-size: 30px;
     width: 20%;
     padding: 36px;
-    display: none;
+    display: flex;
+
   }
 
   .logo-compertition {
