@@ -14,12 +14,10 @@ a {
   font-weight: 700;
   font-size: 14.2712px;
   line-height: 25px;
-  display: flex;
   align-items: center;
   color: #ff5438;
   text-decoration: none;
-
-  /* display: none; */
+  display: none;
 }
 
 nav ul li a {
@@ -137,15 +135,13 @@ article {
   font-weight: 400;
   font-size: 12px;
   line-height: 17px;
-  display: flex;
   justify-content: center;
   align-items: center;
   letter-spacing: -0.01em;
   color: #515151;
   padding: 46px 0;
   width: 90%;
-
-  /* display: none; */
+  display: block;
 }
 
 .center-main {
@@ -477,6 +473,10 @@ article {
   display: none;
 }
 
+.about-discription1 {
+  display: none;
+}
+
 .pic-overlay {
   position: relative;
   margin: 20px;
@@ -581,9 +581,21 @@ article {
   width: 100%;
   height: 216px;
   background: #414246;
-
-  /* display: none; */
+  display: none;
 }
+
+#sponsers1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 40px;
+  gap: 10px;
+  width: 100%;
+  height: 216px;
+  background: #414246;
+}
+
 
 /* ---FOOTER SOPNSOERS --------------- */
 
@@ -650,14 +662,61 @@ article {
   align-items: center;
   letter-spacing: -0.01em;
   color: #3b3e45;
-
-  /* display: none; */
+  display: none;
 }
 
 .chana-bottom {
   display: none;
 }
 
+.chana-bottom1 {
+  width: 683px;
+  height: 56px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  align-items: center;
+  letter-spacing: -0.04em;
+  color: #fff;
+  display: none;
+}
+
+.bot {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-footer {
+  display: flex;
+}
+
+.ogo1 {
+  color: rgb(252, 50, 14);
+  font-family: "Lato", sans-serif;
+  font-weight: 900 !important;
+  background-image: url("images/fire.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  width: 20%;
+  padding: 36px;
+}
+
+.closing-footer1 {
+  width: 158px;
+  height: 24px;
+  font-family: 'Lato',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #3b3e45;
+}
 
 
 /* -----------------destop version-------------- */
@@ -1086,6 +1145,7 @@ article {
     font-size: 30px;
     width: 20%;
     padding: 36px;
+    display: none;
   }
 
   .logo-compertition {
