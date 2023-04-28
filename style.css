@@ -107,7 +107,7 @@ nav ul {
 }
 
 #top-sections {
-  background-image: url("images/mobile-bg.png");
+  background-image: url("images/mob.jpeg");
   background-position: center;
   margin-top: 30px;
 }
@@ -711,6 +711,11 @@ article {
   color: #3b3e45;
 }
 
+#about-sec {
+  background-image: url("images/destop.jpeg");
+  background-position: center;
+}
+
 /* -----------------destop version-------------- */
 
 @media screen and (min-width: 768px) {
@@ -740,6 +745,17 @@ article {
   }
 
   /* -----meune--- */
+  #top-sections {
+    background-image: url("images/destop.jpeg");
+    background-position: center;
+    margin-top: 30px;
+  }
+
+  #about-sec {
+    background-image: url("images/destop.jpeg");
+    background-position: center;
+  }
+
   .option {
     display: none;
   }
