@@ -930,7 +930,7 @@ article {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1rem;
     justify-items: center;
-    margin-left: 10%;
+    margin-left: 15%;
   }
 
   .line-up {
