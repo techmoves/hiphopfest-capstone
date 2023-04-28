@@ -29,6 +29,26 @@ nav ul {
   display: none;
 }
 
+/* -----menu sec-------------- */
+.humburger.active .mobile-menu:nth-child(2) {
+    opacity: 0;
+}
+.humburger.active .mobile-menu:nth-child(2) {
+    transform: translate(200px) rotate(45deg);
+}
+.humburger.active .mobile-menu:nth-child(2) {
+    transform: translate(-200px) rotate(-45deg);
+}
+.mobile-menu {
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    transition: 0.3s;
+}
+
+
+
 #header section {
 
 }

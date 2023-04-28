@@ -101,19 +101,19 @@ featureSection.appendChild(artiseButton)
 // mobile Menu 
 
 
-// const ham = document.querySelector('.humburger');
-// const closeBtn = document.querySelector('.closeBtn');
-// const mobMenu = document.querySelector('.mobile-menu');
+const hum = document.querySelector('.humburger');
+const closeBtn = document.querySelector('.closeBtn');
+const mobMenu = document.querySelector('.mobile-menu');
 
-// ham.addEventListener('click', () => {
-//   mobMenu.style.display = 'flex';
+ham.addEventListener('click', () => {
+  humburger.style.display = 'flex';
 
-// });
+});
 
-// closeBtn.addEventListener('click', () => {
-//   mobMenu.style.display = 'none';
+closeBtn.addEventListener('click', () => {
 
-// });
 
-// mobMenu.addEventListener('click', () => {
-//   mobMenu.style.display = 'none';
+});
+
+mobMenu.addEventListener('click', () => {
+
