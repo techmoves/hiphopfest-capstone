@@ -656,6 +656,10 @@ a {
     align-items: center;
   }
 
+  .closeBtn {
+      display: none;
+  }
+
   .col-nav1 {
     color: #ec4327;
   }
