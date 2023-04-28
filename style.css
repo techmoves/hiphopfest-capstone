@@ -377,7 +377,7 @@ article {
 .expandaBtn {
   background-image: url("images/arrow.png");
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1179,7 +1179,6 @@ article {
     width: 20%;
     padding: 36px;
     display: flex;
-
   }
 
   .logo-compertition {
