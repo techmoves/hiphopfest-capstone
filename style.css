@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 
 body {
-  margin-left: 10%;
-  background-image: url("images/destop.jpeg");
-  background-position: center;
+  margin: 0;
 }
 
 *,
@@ -19,7 +17,7 @@ p {
 a {
   width: 50%;
   height: 41.92px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14.2712px;
@@ -46,6 +44,7 @@ nav ul {
 
 .humburger {
   width: 25px;
+  margin: 5px 0 0 5px;
 }
 
 .Logo {
@@ -81,7 +80,7 @@ nav ul {
 }
 
 .option ul li {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -103,20 +102,20 @@ nav ul {
 
 .great-text {
   color: rgb(252, 50, 14);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
 
 .great-text1 {
   color: rgb(252, 50, 14);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
 
 #top-sections {
-  background-image: url("images/mob.jpeg");
+  background-image: url('images/mob.jpeg');
   background-position: center;
 }
 
@@ -127,9 +126,9 @@ nav ul {
 
 h1 {
   color: rgb(252, 50, 14);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 900;
-  background-image: url("images/fire.jpg");
+  background-image: url('images/fire.jpg');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
@@ -138,8 +137,7 @@ h1 {
 }
 
 article {
-  height: 100px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -148,20 +146,21 @@ article {
   align-items: center;
   letter-spacing: -0.01em;
   color: #515151;
-  padding: 46px 0;
   width: 90%;
   display: block;
+  background-color: #fff;
+  border: 1px solid #3b3e45;
+  padding: 5px;
 }
 
 .center-main {
-  background-color: #fff;
   width: 95%;
 }
 
 .date {
   padding: 20px 0;
   width: 80%;
-  font-family: "Gothic A1", sans-serif;
+  font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
@@ -172,7 +171,7 @@ article {
 }
 
 .loaction {
-  font-family: "Gothic A1", sans-serif;
+  font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
@@ -186,7 +185,7 @@ article {
 
 .event-details {
   height: 82.06px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 10.7034px;
@@ -208,7 +207,7 @@ article {
 
 .inter-act {
   height: 17px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -220,7 +219,7 @@ article {
 
 .inter-act1 {
   height: 17px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -235,7 +234,7 @@ article {
 .inter-act2 {
   width: 100%;
   height: 28px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -249,7 +248,7 @@ article {
 .inter-act4 {
   width: 100%;
   height: 28px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -263,7 +262,7 @@ article {
 .inter-act3 {
   width: 100%;
   height: 28px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -314,7 +313,7 @@ article .activity {
   width: 70%;
   height: 68px;
   background: #ff4f38;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
@@ -329,7 +328,7 @@ article .activity {
 }
 
 #main-program-sec {
-  background-image: url("images/bfx.png");
+  background-image: url('images/bfx.png');
   background-color: #2d3037;
 }
 
@@ -353,7 +352,7 @@ article .activity {
 .art-name {
   margin: 5px;
   height: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -367,7 +366,7 @@ article .activity {
   margin-top: 15px;
   width: 95%;
   height: 47px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 9px;
@@ -378,7 +377,7 @@ article .activity {
 }
 
 .expandaBtn {
-  background-image: url("images/arrow.png");
+  background-image: url('images/arrow.png');
   background-repeat: no-repeat;
   background-position-x: center;
   display: flex;
@@ -391,7 +390,7 @@ article .activity {
   cursor: pointer;
   border: none;
   color: #000;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 11px;
@@ -405,7 +404,7 @@ article .activity {
 
 .bout-dur {
   color: rgb(252, 50, 14);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 900 !important;
   font-size: 50px;
   width: 100%;
@@ -414,8 +413,7 @@ article .activity {
 /* ------------------------about section------------- */
 .raw-text {
   width: 100%;
-  height: 42px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -434,7 +432,7 @@ article .activity {
 
 .winner-circle {
   height: 42px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -447,16 +445,14 @@ article .activity {
 
 .about-dur {
   color: rgb(252, 50, 14);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 900 !important;
   font-size: 50px;
   width: 100%;
 }
 
 .about-discription {
-  width: 100%;
-  height: 116px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -522,7 +518,7 @@ article .activity {
   color: white;
   text-align: center;
   padding-top: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 900;
 }
@@ -535,7 +531,7 @@ article .activity {
   color: white;
   text-align: center;
   padding-top: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 22px;
@@ -549,7 +545,7 @@ article .activity {
   color: white;
   text-align: center;
   padding-top: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 900;
 }
@@ -562,7 +558,7 @@ article .activity {
   color: white;
   text-align: center;
   padding-top: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 22px;
@@ -602,7 +598,7 @@ article .activity {
 }
 
 .Sponsr1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   color: #fff;
   font-style: normal;
@@ -621,21 +617,21 @@ article .activity {
 }
 
 .Sponsr4 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   color: #05681a;
   font-style: normal;
 }
 
 .Sponsr5 {
-  font-family: "lato", sans-serif;
+  font-family: 'lato', sans-serif;
   font-size: 35px;
   color: #080808;
   font-style: normal;
 }
 
 .Sponsr6 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 35px;
   color: #ece5e5;
   font-style: normal;
@@ -648,7 +644,7 @@ article .activity {
 .closing-footer {
   width: 40%;
   height: 24px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -666,7 +662,7 @@ article .activity {
 .chana-bottom1 {
   width: 683px;
   height: 56px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -696,9 +692,9 @@ article .activity {
 
 .ogo1 {
   color: rgb(252, 50, 14);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 900 !important;
-  background-image: url("images/fire.jpg");
+  background-image: url('images/fire.jpg');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 30px;
@@ -709,7 +705,7 @@ article .activity {
 .closing-footer1 {
   width: 158px;
   height: 24px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -721,16 +717,17 @@ article .activity {
 }
 
 #about-sec {
-  background-image: url("images/destop.jpeg");
+  background-image: url('images/destop.jpeg');
   background-position: center;
+  margin: 0 0.5rem;
 }
 
 .Logo10 {
   display: none;
   color: rgb(252, 50, 14);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 900 !important;
-  background-image: url("images/fire.jpg");
+  background-image: url('images/fire.jpg');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 30px;
@@ -739,9 +736,9 @@ article .activity {
 
 .ogo12 {
   color: rgb(252, 50, 14);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 900 !important;
-  background-image: url("images/fire.jpg");
+  background-image: url('images/fire.jpg');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 30px;
@@ -757,12 +754,20 @@ article .activity {
 /* -----------------destop version-------------- */
 
 @media screen and (min-width: 768px) {
+  #top-section {
+    background-image: url('./images/destop.jpeg');
+  }
+
+  .section-margin {
+    margin: 0 5rem;
+  }
+
   a {
     width: 90%;
     height: 27px;
     left: 55px;
     top: 71px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -784,13 +789,13 @@ article .activity {
 
   /* -----meune--- */
   #top-sections {
-    background-image: url("images/destop.jpeg");
+    background-image: url('images/destop.jpeg');
     background-position: center;
     margin-top: 30px;
   }
 
   #about-sec {
-    background-image: url("images/destop.jpeg");
+    background-image: url('images/destop.jpeg');
     background-position: center;
   }
 
@@ -806,9 +811,9 @@ article .activity {
   .Logo10 {
     display: block;
     color: rgb(252, 50, 14);
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 900 !important;
-    background-image: url("images/fire.jpg");
+    background-image: url('images/fire.jpg');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
@@ -834,7 +839,7 @@ article .activity {
     height: 39px;
     left: -24px;
     top: -0.5px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -844,7 +849,6 @@ article .activity {
   }
 
   .center-main1 {
-    background-color: #fff;
     width: 57%;
   }
 
@@ -858,9 +862,9 @@ article .activity {
 
   .Logo {
     color: rgb(252, 50, 14);
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 900 !important;
-    background-image: url("images/fire.jpg");
+    background-image: url('images/fire.jpg');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
@@ -875,11 +879,7 @@ article .activity {
   .center-main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 10px;
-    height: 245px;
-    background: #fff;
-    padding: 20px 0;
     text-align: center;
     align-items: center;
     width: 57%;
@@ -929,7 +929,7 @@ article .activity {
 
   .top-nav-bar ul li a {
     height: 17px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -955,10 +955,9 @@ article .activity {
   }
 
   article {
-    height: 240px;
     left: 29.74px;
     top: 36.32px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -971,8 +970,7 @@ article .activity {
 
   .about-discription1 {
     width: 100%;
-    height: 116px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -991,7 +989,7 @@ article .activity {
   .date {
     width: 608.35px;
     height: 78.09px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 42.4837px;
@@ -1006,7 +1004,7 @@ article .activity {
   .loaction {
     width: 715.85px;
     height: 27.61px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 27.6144px;
@@ -1027,7 +1025,7 @@ article .activity {
   .line-up {
     width: 257px;
     height: 19px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1070,7 +1068,7 @@ article .activity {
     height: 72px;
     left: 0;
     top: 111px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -1095,13 +1093,13 @@ article .activity {
 
   /* -----about page--- */
   .about-main-sec {
-    background-image: url("images/mobile-bg.png");
+    background-image: url('images/mobile-bg.png');
     background-position: center;
   }
 
   .about-dur {
     color: rgb(252, 50, 14);
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 900 !important;
     font-size: 70px;
     width: 100%;
@@ -1113,7 +1111,7 @@ article .activity {
   .about-discription {
     width: 80%;
     height: 175px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1152,7 +1150,7 @@ article .activity {
     color: white;
     text-align: center;
     padding-top: 30px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
@@ -1166,7 +1164,7 @@ article .activity {
     color: white;
     text-align: center;
     padding-top: 30px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
@@ -1180,7 +1178,7 @@ article .activity {
     color: white;
     text-align: center;
     padding-top: 30px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
   }
@@ -1193,7 +1191,7 @@ article .activity {
     color: white;
     text-align: center;
     padding-top: 30px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
@@ -1208,8 +1206,7 @@ article .activity {
 
   .raw-text {
     width: 100%;
-    height: 42px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -1243,7 +1240,7 @@ article .activity {
   .chana-bottom {
     width: 683px;
     height: 56px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1257,7 +1254,7 @@ article .activity {
   .chana-bottom1 {
     width: 683px;
     height: 56px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1270,9 +1267,9 @@ article .activity {
 
   .ogo12 {
     color: rgb(252, 50, 14);
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 900 !important;
-    background-image: url("images/fire.jpg");
+    background-image: url('images/fire.jpg');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
@@ -1288,7 +1285,7 @@ article .activity {
 
   .winner-circle {
     height: 63px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1303,7 +1300,7 @@ article .activity {
   .closing-footer {
     width: 60%;
     height: 24px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -1324,7 +1321,7 @@ article .activity {
   .closing-footer1 {
     width: 60%;
     height: 24px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
