@@ -755,18 +755,6 @@ article {
     color: #ff5438;
   }
 
-  #sponsers {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0 40px;
-  gap: 10px;
-  width: 100%;
-  height: 216px;
-  background: #414246;
-}
-
   nav ul li a {
     display: flex;
     flex-direction: row;
